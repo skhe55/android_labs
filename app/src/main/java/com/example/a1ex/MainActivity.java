@@ -1,5 +1,10 @@
 package com.example.a1ex;
 
+/**
+ * Невероятно полезная документация
+ * @autor Ковтун,Паршуков
+ */
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -11,6 +16,12 @@ public class MainActivity extends AppCompatActivity {
         return a + b;
     }
 
+    /**
+     * Функция возращающая минимальное знакчение
+     * @param a - 1 число
+     * @param b - 2 число
+     * @return
+     */
     public int min(int a, int b) {
         if(a > b){
             return b;
@@ -20,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Функция возращающая максимальное значение
+     * @param a - 1 число
+     * @param b - 2 числа
+     * @return
+     */
     public int max(int a, int b) {
         if(a > b){
             return a;
